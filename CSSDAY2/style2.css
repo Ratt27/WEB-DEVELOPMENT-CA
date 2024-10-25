@@ -1,0 +1,21 @@
+h1 
+{
+    display:inline;
+    color: #1af9e5;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+/*with name color change*/
+h3{
+   color: rgba(250,150, 200,0.9);
+   /*a=alpha:which denotes the intensity*/
+}
+p{
+    color: hsl(245,60%, 44%);
+}
+body{
+    background-image: url(./cornfield.jpg);
+    background-size: cover ;
+}
+/*pixel-size = big = blurry pic*/
