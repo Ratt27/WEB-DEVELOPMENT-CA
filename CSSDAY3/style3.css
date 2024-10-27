@@ -1,0 +1,12 @@
+h1{
+    font-size: 10vw;
+    text-transform: lowercase;
+    background-color: aquamarine;
+}
+/*priority selection= ID->CLASS->H1*/
+#first-id{
+    background-color: brown ;
+}
+.first-class{
+    background-color: blanchedalmond!important;
+}

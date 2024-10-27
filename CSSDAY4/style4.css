@@ -1,0 +1,35 @@
+h1{
+    display:inline;
+    background-color: rgb(104, 142, 175);
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+ul{
+    background-color: rgb(231, 231, 81);
+}
+p{
+    background-color: chartreuse;
+    border-style: groove;
+    border-color: black;
+    border-width: 7px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 30px 50px 70px;
+    /*to remove the words away from the border=padding*/
+
+}
+h2{
+    background-color: coral;
+    border-left-width: 10px;
+    border-left-color:blueviolet ;
+    border-left-style: double;
+}
+h3{
+   width: 200px;
+   height: 300px;
+   padding: 70px;
+   border: 5px brown solid; 
+   box-sizing: border-box;
+}
+/*why do we give margin?= to maintain distance between two boxes; to prevent overlapping*/
