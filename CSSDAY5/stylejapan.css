@@ -1,0 +1,14 @@
+*circle{
+    margin: 0;
+}
+
+
+.circle{
+    background-color: red;
+    height:60vh;
+    width:60vh;
+    border-radius: 50%;
+    margin: auto;
+    /*margin auto = horizontally cheezo ko centre pe rakh deta he*/
+    margin-top: 20vh;
+}
