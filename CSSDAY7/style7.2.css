@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    /*overflow: hidden;  in this case the overflowed content is not shown*/
+    overflow: scroll;
+}
+/*by default --> overflow is visible*/
+.img1{
+    height:200px ;
+    width:auto;
+    float:left;
+    margin-right: 20px;
+    
+
+}
+.img2{
+    height: 300px;
+    width: auto;
+    float: right;
+    margin-left: 20px;
+}
+.img3{
+    height: 300px;
+    width: auto;
+    float: right;
+    clear: right;
+}

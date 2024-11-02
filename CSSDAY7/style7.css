@@ -1,0 +1,32 @@
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:goldenrod ;
+}
+.container{
+    background-color: burlywood;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.box1{
+    background-color: crimson;
+    position: relative;
+    left: 250px;
+    z-index: 7;
+}
+.box2{
+    background-color: blueviolet;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    /*z-index: -1;by doing this the box goes in the back instead of displaying itself in the front*/
+    z-index: 2;
+}
+.box3{
+    background-color: brown;
+    z-index: 5;
+}
+.box4{
+    background-color: darkgreen;
+}
