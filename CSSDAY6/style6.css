@@ -1,0 +1,25 @@
+.container{
+    background-color: aquamarine;
+    margin-left: 200px;
+    margin-top: 150px;
+    position: relative;
+    height: 400px;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: chartreuse;
+    position: sticky;
+    top: 30px;
+   
+}
+.box3{
+    background-color: coral;
+}

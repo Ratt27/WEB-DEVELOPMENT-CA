@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: chartreuse;
+    position: fixed;/*with respect to zero pixel*/
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+main{
+    padding-top: 60px ;
+}
+/* so that there is a gap between the heading and the para*/
