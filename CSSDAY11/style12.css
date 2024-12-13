@@ -1,0 +1,32 @@
+.container{
+    background-color: blueviolet;
+    /*height:200px;
+    width:200px;*/
+    display:flex;
+}/*for in general desktop purposes*/
+.box{
+    height: 300px;
+    width: 300px;
+    color: aqua;
+    background-color: brown;
+    margin: 30px;
+}
+/*for mobile phone*/
+@media(max-width:600px)
+{
+    .container{
+        flex-direction:column;
+    }
+}
+/*@media (min-width:601px) and (max-width:900px)
+{
+
+}*/
+/*@media(max-width:500px)
+{
+    .container{
+        background-color: blanchedalmond;
+        height:200px;
+        width:200px;
+    }
+}*/
